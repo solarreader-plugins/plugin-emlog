@@ -3,7 +3,7 @@
 ![Last Commit](https://img.shields.io/github/last-commit/solarreader-plugins/plugin-emlog)
 ![Issues](https://img.shields.io/github/issues/solarreader-plugins/plugin-emlog)
 
-# Emlog Plugin for SolarReader
+# Emlog Plugin for Solarreader
 
 This plugin for **Solarreader** enables integration with **Emlog** devices via HTTP.
 
