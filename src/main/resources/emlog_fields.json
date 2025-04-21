@@ -1,0 +1,686 @@
+[
+  {
+    "name": "Emlog Zähler 1",
+    "command": "http://emlog/pages/getinformation.php?heute&datum={today}&meterindex=1",
+    "maxErrorThreshold": 2,
+    "errorSuspensionTimeSeconds": 60,
+    "propertyFieldList": [
+      {
+        "fieldName": "Zaehler1_Bezug_Zaehlerstand_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand180"
+      },
+      {
+        "fieldName": "Zaehler1_Bezug_Zaehlerstand_Tarif1",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand181"
+      },
+      {
+        "fieldName": "Zaehler1_Bezug_Zaehlerstand_Tarif2",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand182"
+      },
+      {
+        "fieldName": "Zaehler1_Lieferung_Zaehlerstand_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand280"
+      },
+      {
+        "fieldName": "Zaehler1_Lieferung_Zaehlerstand_Tarif1",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand281"
+      },
+      {
+        "fieldName": "Zaehler1_Lieferung_Zaehlerstand_Tarif2",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand282"
+      },
+      {
+        "fieldName": "Zaehler1_Bezug_Leistung_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung170"
+      },
+      {
+        "fieldName": "Zaehler1_Bezug_Leistung_R",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung171"
+      },
+      {
+        "fieldName": "Zaehler1_Bezug_Leistung_S",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung172"
+      },
+      {
+        "fieldName": "Zaehler1_Bezug_Leistung_T",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung173"
+      },
+      {
+        "fieldName": "Zaehler1_Lieferung_Leistung_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung270"
+      },
+      {
+        "fieldName": "Zaehler1_Lieferung_Leistung_R",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung271"
+      },
+      {
+        "fieldName": "Zaehler1_Lieferung_Leistung_S",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung272"
+      },
+      {
+        "fieldName": "Zaehler1_Lieferung_Leistung_T",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung273"
+      },
+      {
+        "fieldName": "Zaehler1_Bezug_Energie_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh180"
+      },
+      {
+        "fieldName": "Zaehler1_Bezug_Energie_Tarif1",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh181"
+      },
+      {
+        "fieldName": "Zaehler1_Bezug_Energie_Tarif2",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh182"
+      },
+      {
+        "fieldName": "Zaehler1_Lieferung_Energie_Gesamt_Heute",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh280"
+      },
+      {
+        "fieldName": "Zaehler1_Lieferung_Energie_Tarif1_Heute",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh281"
+      },
+      {
+        "fieldName": "Zaehler1_Lieferung_Energie_Tarif2_Heute",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh282"
+      },
+      {
+        "fieldName": "Zaehler1_Bezug_Betrag_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag180"
+      },
+      {
+        "fieldName": "Zaehler1_Bezug_Betrag_Tarif1",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag181"
+      },
+      {
+        "fieldName": "Zaehler1_Bezug_Betrag_Tarif2",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag182"
+      },
+      {
+        "fieldName": "Zaehler1_Lieferung_Betrag_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag280"
+      },
+      {
+        "fieldName": "Zaehler1_Lieferung_Betrag_Tarif1",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag281"
+      },
+      {
+        "fieldName": "Zaehler1_Lieferung_Betrag_Tarif2",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag282"
+      },
+      {
+        "fieldName": "Zaehler1_Waehrung",
+        "fieldType": "STRING",
+        "expression": "value",
+        "index": "Waehrung"
+      }
+    ],
+    "providerPropertyType": "COMMAND"
+  },
+  {
+    "name": "Emlog Zähler 2",
+    "command": "http://emlog/pages/getinformation.php?heute&datum={today}&meterindex=2",
+    "maxErrorThreshold": 2,
+    "errorSuspensionTimeSeconds": 60,
+    "propertyFieldList": [
+      {
+        "fieldName": "Zaehler2_Bezug_Zaehlerstand_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand180"
+      },
+      {
+        "fieldName": "Zaehler2_Bezug_Zaehlerstand_Tarif1",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand181"
+      },
+      {
+        "fieldName": "Zaehler2_Bezug_Zaehlerstand_Tarif2",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand182"
+      },
+      {
+        "fieldName": "Zaehler2_Lieferung_Zaehlerstand_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand280"
+      },
+      {
+        "fieldName": "Zaehler2_Lieferung_Zaehlerstand_Tarif1",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand281"
+      },
+      {
+        "fieldName": "Zaehler2_Lieferung_Zaehlerstand_Tarif2",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand282"
+      },
+      {
+        "fieldName": "Zaehler2_Bezug_Leistung_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung170"
+      },
+      {
+        "fieldName": "Zaehler2_Bezug_Leistung_R",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung171"
+      },
+      {
+        "fieldName": "Zaehler2_Bezug_Leistung_S",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung172"
+      },
+      {
+        "fieldName": "Zaehler2_Bezug_Leistung_T",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung173"
+      },
+      {
+        "fieldName": "Zaehler2_Lieferung_Leistung_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung270"
+      },
+      {
+        "fieldName": "Zaehler2_Lieferung_Leistung_R",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung271"
+      },
+      {
+        "fieldName": "Zaehler2_Lieferung_Leistung_S",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung272"
+      },
+      {
+        "fieldName": "Zaehler2_Lieferung_Leistung_T",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung273"
+      },
+      {
+        "fieldName": "Zaehler2_Bezug_Energie_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh180"
+      },
+      {
+        "fieldName": "Zaehler2_Bezug_Energie_Tarif1",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh181"
+      },
+      {
+        "fieldName": "Zaehler2_Bezug_Energie_Tarif2",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh182"
+      },
+      {
+        "fieldName": "Zaehler2_Lieferung_Energie_Gesamt_Heute",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh280"
+      },
+      {
+        "fieldName": "Zaehler2_Lieferung_Energie_Tarif1_Heute",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh281"
+      },
+      {
+        "fieldName": "Zaehler2_Lieferung_Energie_Tarif2_Heute",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh282"
+      },
+      {
+        "fieldName": "Zaehler2_Bezug_Betrag_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag180"
+      },
+      {
+        "fieldName": "Zaehler2_Bezug_Betrag_Tarif1",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag181"
+      },
+      {
+        "fieldName": "Zaehler2_Bezug_Betrag_Tarif2",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag182"
+      },
+      {
+        "fieldName": "Zaehler2_Lieferung_Betrag_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag280"
+      },
+      {
+        "fieldName": "Zaehler2_Lieferung_Betrag_Tarif1",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag281"
+      },
+      {
+        "fieldName": "Zaehler2_Lieferung_Betrag_Tarif2",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag282"
+      },
+      {
+        "fieldName": "Zaehler2_Waehrung",
+        "fieldType": "STRING",
+        "expression": "value",
+        "index": "Waehrung"
+      }
+    ],
+    "providerPropertyType": "COMMAND"
+  },
+  {
+    "name": "Emlog Zähler 3",
+    "command": "http://emlog/pages/getinformation.php?heute&datum={today}&meterindex=3",
+    "maxErrorThreshold": 2,
+    "errorSuspensionTimeSeconds": 60,
+    "propertyFieldList": [
+      {
+        "fieldName": "Zaehler3_Bezug_Zaehlerstand_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand180"
+      },
+      {
+        "fieldName": "Zaehler3_Bezug_Zaehlerstand_Tarif1",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand181"
+      },
+      {
+        "fieldName": "Zaehler3_Bezug_Zaehlerstand_Tarif2",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand182"
+      },
+      {
+        "fieldName": "Zaehler3_Lieferung_Zaehlerstand_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand280"
+      },
+      {
+        "fieldName": "Zaehler3_Lieferung_Zaehlerstand_Tarif1",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand281"
+      },
+      {
+        "fieldName": "Zaehler3_Lieferung_Zaehlerstand_Tarif2",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand282"
+      },
+      {
+        "fieldName": "Zaehler3_Bezug_Leistung_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung170"
+      },
+      {
+        "fieldName": "Zaehler3_Bezug_Leistung_R",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung171"
+      },
+      {
+        "fieldName": "Zaehler3_Bezug_Leistung_S",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung172"
+      },
+      {
+        "fieldName": "Zaehler3_Bezug_Leistung_T",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung173"
+      },
+      {
+        "fieldName": "Zaehler3_Lieferung_Leistung_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung270"
+      },
+      {
+        "fieldName": "Zaehler3_Lieferung_Leistung_R",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung271"
+      },
+      {
+        "fieldName": "Zaehler3_Lieferung_Leistung_S",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung272"
+      },
+      {
+        "fieldName": "Zaehler3_Lieferung_Leistung_T",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung273"
+      },
+      {
+        "fieldName": "Zaehler3_Bezug_Energie_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh180"
+      },
+      {
+        "fieldName": "Zaehler3_Bezug_Energie_Tarif1",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh181"
+      },
+      {
+        "fieldName": "Zaehler3_Bezug_Energie_Tarif2",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh182"
+      },
+      {
+        "fieldName": "Zaehler3_Lieferung_Energie_Gesamt_Heute",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh280"
+      },
+      {
+        "fieldName": "Zaehler3_Lieferung_Energie_Tarif1_Heute",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh281"
+      },
+      {
+        "fieldName": "Zaehler3_Lieferung_Energie_Tarif2_Heute",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh282"
+      },
+      {
+        "fieldName": "Zaehler3_Bezug_Betrag_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag180"
+      },
+      {
+        "fieldName": "Zaehler3_Bezug_Betrag_Tarif1",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag181"
+      },
+      {
+        "fieldName": "Zaehler3_Bezug_Betrag_Tarif2",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag182"
+      },
+      {
+        "fieldName": "Zaehler3_Lieferung_Betrag_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag280"
+      },
+      {
+        "fieldName": "Zaehler3_Lieferung_Betrag_Tarif1",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag281"
+      },
+      {
+        "fieldName": "Zaehler3_Lieferung_Betrag_Tarif2",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag282"
+      },
+      {
+        "fieldName": "Zaehler3_Waehrung",
+        "fieldType": "STRING",
+        "expression": "value",
+        "index": "Waehrung"
+      }
+    ],
+    "providerPropertyType": "COMMAND"
+  },
+  {
+    "name": "Emlog Zähler 4",
+    "command": "http://emlog/pages/getinformation.php?heute&datum={today}&meterindex=4",
+    "maxErrorThreshold": 2,
+    "errorSuspensionTimeSeconds": 60,
+    "propertyFieldList": [
+      {
+        "fieldName": "Zaehler4_Bezug_Zaehlerstand_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand180"
+      },
+      {
+        "fieldName": "Zaehler4_Bezug_Zaehlerstand_Tarif1",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand181"
+      },
+      {
+        "fieldName": "Zaehler4_Bezug_Zaehlerstand_Tarif2",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand182"
+      },
+      {
+        "fieldName": "Zaehler4_Lieferung_Zaehlerstand_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand280"
+      },
+      {
+        "fieldName": "Zaehler4_Lieferung_Zaehlerstand_Tarif1",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand281"
+      },
+      {
+        "fieldName": "Zaehler4_Lieferung_Zaehlerstand_Tarif2",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Stand282"
+      },
+      {
+        "fieldName": "Zaehler4_Bezug_Leistung_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung170"
+      },
+      {
+        "fieldName": "Zaehler4_Bezug_Leistung_R",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung171"
+      },
+      {
+        "fieldName": "Zaehler4_Bezug_Leistung_S",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung172"
+      },
+      {
+        "fieldName": "Zaehler4_Bezug_Leistung_T",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung173"
+      },
+      {
+        "fieldName": "Zaehler4_Lieferung_Leistung_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung270"
+      },
+      {
+        "fieldName": "Zaehler4_Lieferung_Leistung_R",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung271"
+      },
+      {
+        "fieldName": "Zaehler4_Lieferung_Leistung_S",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung272"
+      },
+      {
+        "fieldName": "Zaehler4_Lieferung_Leistung_T",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Leistung273"
+      },
+      {
+        "fieldName": "Zaehler4_Bezug_Energie_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh180"
+      },
+      {
+        "fieldName": "Zaehler4_Bezug_Energie_Tarif1",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh181"
+      },
+      {
+        "fieldName": "Zaehler4_Bezug_Energie_Tarif2",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh182"
+      },
+      {
+        "fieldName": "Zaehler4_Lieferung_Energie_Gesamt_Heute",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh280"
+      },
+      {
+        "fieldName": "Zaehler4_Lieferung_Energie_Tarif1_Heute",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh281"
+      },
+      {
+        "fieldName": "Zaehler4_Lieferung_Energie_Tarif2_Heute",
+        "fieldType": "NUMBER",
+        "expression": "value * 1000",
+        "index": "Kwh282"
+      },
+      {
+        "fieldName": "Zaehler4_Bezug_Betrag_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag180"
+      },
+      {
+        "fieldName": "Zaehler4_Bezug_Betrag_Tarif1",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag181"
+      },
+      {
+        "fieldName": "Zaehler4_Bezug_Betrag_Tarif2",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag182"
+      },
+      {
+        "fieldName": "Zaehler4_Lieferung_Betrag_Gesamt",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag280"
+      },
+      {
+        "fieldName": "Zaehler4_Lieferung_Betrag_Tarif1",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag281"
+      },
+      {
+        "fieldName": "Zaehler4_Lieferung_Betrag_Tarif2",
+        "fieldType": "NUMBER",
+        "expression": "value",
+        "index": "Betrag282"
+      },
+      {
+        "fieldName": "Zaehler4_Waehrung",
+        "fieldType": "STRING",
+        "expression": "value",
+        "index": "Waehrung"
+      }
+    ],
+    "providerPropertyType": "COMMAND"
+  }
+]

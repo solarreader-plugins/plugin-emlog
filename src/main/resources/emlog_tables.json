@@ -1,0 +1,802 @@
+[
+  {
+    "columns": [
+      {
+        "columnName": "Bezug_Zaehlerstand_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Zaehlerstand_Tarif1",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Zaehlerstand_Tarif2",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Zaehlerstand_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Zaehlerstand_Tarif1",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Zaehlerstand_Tarif2",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Leistung_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Leistung_R",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Leistung_S",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Leistung_T",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Leistung_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Leistung_R",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Leistung_S",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Leistung_T",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Energie_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Energie_Tarif1",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Energie_Tarif2",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Energie_Gesamt_Heute",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Energie_Tarif1_Heute",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Energie_Tarif2_Heute",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Betrag_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Betrag_Tarif1",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Betrag_Tarif2",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Betrag_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Betrag_Tarif1",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Betrag_Tarif2",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Waehrung",
+        "columnType": "STRING"
+      }
+    ],
+    "rows": [
+      {
+        "cells": [
+          {
+            "expression": "Zaehler1_Bezug_Zaehlerstand_Gesamt"
+          },
+          {
+            "expression": "Zaehler1_Bezug_Zaehlerstand_Tarif1"
+          },
+          {
+            "expression": "Zaehler1_Bezug_Zaehlerstand_Tarif2"
+          },
+          {
+            "expression": "Zaehler1_Lieferung_Zaehlerstand_Gesamt"
+          },
+          {
+            "expression": "Zaehler1_Lieferung_Zaehlerstand_Tarif1"
+          },
+          {
+            "expression": "Zaehler1_Lieferung_Zaehlerstand_Tarif2"
+          },
+          {
+            "expression": "Zaehler1_Bezug_Leistung_Gesamt"
+          },
+          {
+            "expression": "Zaehler1_Bezug_Leistung_R"
+          },
+          {
+            "expression": "Zaehler1_Bezug_Leistung_S"
+          },
+          {
+            "expression": "Zaehler1_Bezug_Leistung_T"
+          },
+          {
+            "expression": "Zaehler1_Lieferung_Leistung_Gesamt"
+          },
+          {
+            "expression": "Zaehler1_Lieferung_Leistung_R"
+          },
+          {
+            "expression": "Zaehler1_Lieferung_Leistung_S"
+          },
+          {
+            "expression": "Zaehler1_Lieferung_Leistung_T"
+          },
+          {
+            "expression": "Zaehler1_Bezug_Energie_Gesamt"
+          },
+          {
+            "expression": "Zaehler1_Bezug_Energie_Tarif1"
+          },
+          {
+            "expression": "Zaehler1_Bezug_Energie_Tarif2"
+          },
+          {
+            "expression": "Zaehler1_Lieferung_Energie_Gesamt_Heute"
+          },
+          {
+            "expression": "Zaehler1_Lieferung_Energie_Tarif1_Heute"
+          },
+          {
+            "expression": "Zaehler1_Lieferung_Energie_Tarif2_Heute"
+          },
+          {
+            "expression": "Zaehler1_Bezug_Betrag_Gesamt"
+          },
+          {
+            "expression": "Zaehler1_Bezug_Betrag_Tarif1"
+          },
+          {
+            "expression": "Zaehler1_Bezug_Betrag_Tarif2"
+          },
+          {
+            "expression": "Zaehler1_Lieferung_Betrag_Gesamt"
+          },
+          {
+            "expression": "Zaehler1_Lieferung_Betrag_Tarif1"
+          },
+          {
+            "expression": "Zaehler1_Lieferung_Betrag_Tarif2"
+          },
+          {
+            "expression": "Zaehler1_Waehrung"
+          }
+        ]
+      }
+    ],
+    "tableName": "Zaehler1"
+  },
+  {
+    "columns": [
+      {
+        "columnName": "Bezug_Zaehlerstand_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Zaehlerstand_Tarif1",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Zaehlerstand_Tarif2",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Zaehlerstand_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Zaehlerstand_Tarif1",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Zaehlerstand_Tarif2",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Leistung_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Leistung_R",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Leistung_S",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Leistung_T",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Leistung_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Leistung_R",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Leistung_S",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Leistung_T",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Energie_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Energie_Tarif1",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Energie_Tarif2",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Energie_Gesamt_Heute",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Energie_Tarif1_Heute",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Energie_Tarif2_Heute",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Betrag_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Betrag_Tarif1",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Betrag_Tarif2",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Betrag_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Betrag_Tarif1",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Betrag_Tarif2",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Waehrung",
+        "columnType": "STRING"
+      }
+    ],
+    "rows": [
+      {
+        "cells": [
+          {
+            "expression": "Zaehler2_Bezug_Zaehlerstand_Gesamt"
+          },
+          {
+            "expression": "Zaehler2_Bezug_Zaehlerstand_Tarif1"
+          },
+          {
+            "expression": "Zaehler2_Bezug_Zaehlerstand_Tarif2"
+          },
+          {
+            "expression": "Zaehler2_Lieferung_Zaehlerstand_Gesamt"
+          },
+          {
+            "expression": "Zaehler2_Lieferung_Zaehlerstand_Tarif1"
+          },
+          {
+            "expression": "Zaehler2_Lieferung_Zaehlerstand_Tarif2"
+          },
+          {
+            "expression": "Zaehler2_Bezug_Leistung_Gesamt"
+          },
+          {
+            "expression": "Zaehler2_Bezug_Leistung_R"
+          },
+          {
+            "expression": "Zaehler2_Bezug_Leistung_S"
+          },
+          {
+            "expression": "Zaehler2_Bezug_Leistung_T"
+          },
+          {
+            "expression": "Zaehler2_Lieferung_Leistung_Gesamt"
+          },
+          {
+            "expression": "Zaehler2_Lieferung_Leistung_R"
+          },
+          {
+            "expression": "Zaehler2_Lieferung_Leistung_S"
+          },
+          {
+            "expression": "Zaehler2_Lieferung_Leistung_T"
+          },
+          {
+            "expression": "Zaehler2_Bezug_Energie_Gesamt"
+          },
+          {
+            "expression": "Zaehler2_Bezug_Energie_Tarif1"
+          },
+          {
+            "expression": "Zaehler2_Bezug_Energie_Tarif2"
+          },
+          {
+            "expression": "Zaehler2_Lieferung_Energie_Gesamt_Heute"
+          },
+          {
+            "expression": "Zaehler2_Lieferung_Energie_Tarif1_Heute"
+          },
+          {
+            "expression": "Zaehler2_Lieferung_Energie_Tarif2_Heute"
+          },
+          {
+            "expression": "Zaehler2_Bezug_Betrag_Gesamt"
+          },
+          {
+            "expression": "Zaehler2_Bezug_Betrag_Tarif1"
+          },
+          {
+            "expression": "Zaehler2_Bezug_Betrag_Tarif2"
+          },
+          {
+            "expression": "Zaehler2_Lieferung_Betrag_Gesamt"
+          },
+          {
+            "expression": "Zaehler2_Lieferung_Betrag_Tarif1"
+          },
+          {
+            "expression": "Zaehler2_Lieferung_Betrag_Tarif2"
+          },
+          {
+            "expression": "Zaehler2_Waehrung"
+          }
+        ]
+      }
+    ],
+    "tableName": "Zaehler2"
+  },
+  {
+    "columns": [
+      {
+        "columnName": "Bezug_Zaehlerstand_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Zaehlerstand_Tarif1",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Zaehlerstand_Tarif2",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Zaehlerstand_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Zaehlerstand_Tarif1",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Zaehlerstand_Tarif2",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Leistung_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Leistung_R",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Leistung_S",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Leistung_T",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Leistung_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Leistung_R",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Leistung_S",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Leistung_T",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Energie_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Energie_Tarif1",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Energie_Tarif2",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Energie_Gesamt_Heute",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Energie_Tarif1_Heute",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Energie_Tarif2_Heute",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Betrag_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Betrag_Tarif1",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Betrag_Tarif2",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Betrag_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Betrag_Tarif1",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Betrag_Tarif2",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Waehrung",
+        "columnType": "STRING"
+      }
+    ],
+    "rows": [
+      {
+        "cells": [
+          {
+            "expression": "Zaehler3_Bezug_Zaehlerstand_Gesamt"
+          },
+          {
+            "expression": "Zaehler3_Bezug_Zaehlerstand_Tarif1"
+          },
+          {
+            "expression": "Zaehler3_Bezug_Zaehlerstand_Tarif2"
+          },
+          {
+            "expression": "Zaehler3_Lieferung_Zaehlerstand_Gesamt"
+          },
+          {
+            "expression": "Zaehler3_Lieferung_Zaehlerstand_Tarif1"
+          },
+          {
+            "expression": "Zaehler3_Lieferung_Zaehlerstand_Tarif2"
+          },
+          {
+            "expression": "Zaehler3_Bezug_Leistung_Gesamt"
+          },
+          {
+            "expression": "Zaehler3_Bezug_Leistung_R"
+          },
+          {
+            "expression": "Zaehler3_Bezug_Leistung_S"
+          },
+          {
+            "expression": "Zaehler3_Bezug_Leistung_T"
+          },
+          {
+            "expression": "Zaehler3_Lieferung_Leistung_Gesamt"
+          },
+          {
+            "expression": "Zaehler3_Lieferung_Leistung_R"
+          },
+          {
+            "expression": "Zaehler3_Lieferung_Leistung_S"
+          },
+          {
+            "expression": "Zaehler3_Lieferung_Leistung_T"
+          },
+          {
+            "expression": "Zaehler3_Bezug_Energie_Gesamt"
+          },
+          {
+            "expression": "Zaehler3_Bezug_Energie_Tarif1"
+          },
+          {
+            "expression": "Zaehler3_Bezug_Energie_Tarif2"
+          },
+          {
+            "expression": "Zaehler3_Lieferung_Energie_Gesamt_Heute"
+          },
+          {
+            "expression": "Zaehler3_Lieferung_Energie_Tarif1_Heute"
+          },
+          {
+            "expression": "Zaehler3_Lieferung_Energie_Tarif2_Heute"
+          },
+          {
+            "expression": "Zaehler3_Bezug_Betrag_Gesamt"
+          },
+          {
+            "expression": "Zaehler3_Bezug_Betrag_Tarif1"
+          },
+          {
+            "expression": "Zaehler3_Bezug_Betrag_Tarif2"
+          },
+          {
+            "expression": "Zaehler3_Lieferung_Betrag_Gesamt"
+          },
+          {
+            "expression": "Zaehler3_Lieferung_Betrag_Tarif1"
+          },
+          {
+            "expression": "Zaehler3_Lieferung_Betrag_Tarif2"
+          },
+          {
+            "expression": "Zaehler3_Waehrung"
+          }
+        ]
+      }
+    ],
+    "tableName": "Zaehler3"
+  },
+  {
+    "columns": [
+      {
+        "columnName": "Bezug_Zaehlerstand_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Zaehlerstand_Tarif1",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Zaehlerstand_Tarif2",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Zaehlerstand_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Zaehlerstand_Tarif1",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Zaehlerstand_Tarif2",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Leistung_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Leistung_R",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Leistung_S",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Leistung_T",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Leistung_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Leistung_R",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Leistung_S",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Leistung_T",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Energie_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Energie_Tarif1",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Energie_Tarif2",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Energie_Gesamt_Heute",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Energie_Tarif1_Heute",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Energie_Tarif2_Heute",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Betrag_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Betrag_Tarif1",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Bezug_Betrag_Tarif2",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Betrag_Gesamt",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Betrag_Tarif1",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Lieferung_Betrag_Tarif2",
+        "columnType": "NUMBER"
+      },
+      {
+        "columnName": "Waehrung",
+        "columnType": "STRING"
+      }
+    ],
+    "rows": [
+      {
+        "cells": [
+          {
+            "expression": "Zaehler4_Bezug_Zaehlerstand_Gesamt"
+          },
+          {
+            "expression": "Zaehler4_Bezug_Zaehlerstand_Tarif1"
+          },
+          {
+            "expression": "Zaehler4_Bezug_Zaehlerstand_Tarif2"
+          },
+          {
+            "expression": "Zaehler4_Lieferung_Zaehlerstand_Gesamt"
+          },
+          {
+            "expression": "Zaehler4_Lieferung_Zaehlerstand_Tarif1"
+          },
+          {
+            "expression": "Zaehler4_Lieferung_Zaehlerstand_Tarif2"
+          },
+          {
+            "expression": "Zaehler4_Bezug_Leistung_Gesamt"
+          },
+          {
+            "expression": "Zaehler4_Bezug_Leistung_R"
+          },
+          {
+            "expression": "Zaehler4_Bezug_Leistung_S"
+          },
+          {
+            "expression": "Zaehler4_Bezug_Leistung_T"
+          },
+          {
+            "expression": "Zaehler4_Lieferung_Leistung_Gesamt"
+          },
+          {
+            "expression": "Zaehler4_Lieferung_Leistung_R"
+          },
+          {
+            "expression": "Zaehler4_Lieferung_Leistung_S"
+          },
+          {
+            "expression": "Zaehler4_Lieferung_Leistung_T"
+          },
+          {
+            "expression": "Zaehler4_Bezug_Energie_Gesamt"
+          },
+          {
+            "expression": "Zaehler4_Bezug_Energie_Tarif1"
+          },
+          {
+            "expression": "Zaehler4_Bezug_Energie_Tarif2"
+          },
+          {
+            "expression": "Zaehler4_Lieferung_Energie_Gesamt_Heute"
+          },
+          {
+            "expression": "Zaehler4_Lieferung_Energie_Tarif1_Heute"
+          },
+          {
+            "expression": "Zaehler4_Lieferung_Energie_Tarif2_Heute"
+          },
+          {
+            "expression": "Zaehler4_Bezug_Betrag_Gesamt"
+          },
+          {
+            "expression": "Zaehler4_Bezug_Betrag_Tarif1"
+          },
+          {
+            "expression": "Zaehler4_Bezug_Betrag_Tarif2"
+          },
+          {
+            "expression": "Zaehler4_Lieferung_Betrag_Gesamt"
+          },
+          {
+            "expression": "Zaehler4_Lieferung_Betrag_Tarif1"
+          },
+          {
+            "expression": "Zaehler4_Lieferung_Betrag_Tarif2"
+          },
+          {
+            "expression": "Zaehler4_Waehrung"
+          }
+        ]
+      }
+    ],
+    "tableName": "Zaehler4"
+  }
+]
