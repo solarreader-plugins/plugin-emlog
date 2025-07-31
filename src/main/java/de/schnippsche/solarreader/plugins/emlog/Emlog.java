@@ -25,11 +25,9 @@ import de.schnippsche.solarreader.backend.calculator.MapCalculator;
 import de.schnippsche.solarreader.backend.connection.general.ConnectionFactory;
 import de.schnippsche.solarreader.backend.connection.network.HttpConnection;
 import de.schnippsche.solarreader.backend.connection.network.HttpConnectionFactory;
-import de.schnippsche.solarreader.backend.protocol.KnownProtocol;
 import de.schnippsche.solarreader.backend.provider.AbstractHttpProvider;
 import de.schnippsche.solarreader.backend.provider.CommandProviderProperty;
 import de.schnippsche.solarreader.backend.provider.ProviderProperty;
-import de.schnippsche.solarreader.backend.provider.SupportedInterface;
 import de.schnippsche.solarreader.backend.singleton.GlobalUsrStore;
 import de.schnippsche.solarreader.backend.table.Table;
 import de.schnippsche.solarreader.backend.util.JsonTools;
@@ -38,16 +36,11 @@ import de.schnippsche.solarreader.backend.util.StringConverter;
 import de.schnippsche.solarreader.backend.util.TimeEvent;
 import de.schnippsche.solarreader.database.Activity;
 import de.schnippsche.solarreader.frontend.ui.UIList;
-import de.schnippsche.solarreader.plugin.PluginMetadata;
 import java.io.IOException;
 import java.net.URL;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-import java.util.ResourceBundle;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 import org.tinylog.Logger;
 
@@ -59,15 +52,6 @@ import org.tinylog.Logger;
  * <p>The {@link Emlog} class is responsible for managing HTTP communication with Emlog systems,
  * including sending requests, receiving responses, and handling data exchange.
  */
-@PluginMetadata(
-    name = "Emlog",
-    version = "1.0.1",
-    author = "Stefan Töngi",
-    url = "https://github.com/solarreader-plugins/plugin-Emlog",
-    svgImage = "emlog.svg",
-    supportedInterfaces = {SupportedInterface.NONE},
-    usedProtocol = KnownProtocol.HTTP,
-    supports = "")
 public class Emlog extends AbstractHttpProvider {
   private static final DateTimeFormatter todayFormatter = DateTimeFormatter.ofPattern("yyyyMMdd");
   private static final String BASE_URL =
